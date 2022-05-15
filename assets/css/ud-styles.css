@@ -22,6 +22,7 @@ body {
   font-style: normal;
   color: var(--body-color);
   overflow-x: hidden;
+  background-color: rgb(26, 26, 26);
 }
 
 * {
@@ -511,7 +512,6 @@ p {
 
 /* ===== Hero CSS ===== */
 .ud-hero {
-  background: black;
   padding-top: 180px;
 }
 
@@ -544,14 +544,12 @@ p {
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .ud-hero-content .ud-hero-title {
-    font-size: 38px;
     line-height: 50px;
   }
 }
 
 @media (max-width: 767px) {
   .ud-hero-content .ud-hero-title {
-    font-size: 26px;
     line-height: 38px;
   }
 }
